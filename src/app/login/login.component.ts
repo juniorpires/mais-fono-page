@@ -50,7 +50,7 @@ export class LoginComponent implements OnInit,AfterViewInit {
         localStorage.setItem('email', profile.getEmail());
 
         //this.router.navigate(['/home/dash']);
-        window.location.replace("https://github.com/juniorpires/mais-fono/home/dash");
+        window.location.replace("https://juniorpires.github.io/mais-fono/home/dash");
 
       }, (error) => {
         alert(JSON.stringify(error, undefined, 2));
