@@ -20,7 +20,8 @@ export class LoginComponent implements OnInit,AfterViewInit {
   constructor(private router: Router,private _googleAuth: AuthService) { }
 
   ngOnInit() {
-    AppGlobals.GOOGLE_CLIENT_ID = '1062172680352-69ua0kcurpstpb26d0inl1ag6kv1lpir.apps.googleusercontent.com';
+    //AppGlobals.GOOGLE_CLIENT_ID = '1062172680352-69ua0kcurpstpb26d0inl1ag6kv1lpir.apps.googleusercontent.com';
+    AppGlobals.GOOGLE_CLIENT_ID = '449875052890-cdb1o95m4lo9ivtev74fio3p4trfvc0c.apps.googleusercontent.com';
 
     
   }
